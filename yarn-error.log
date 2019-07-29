@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\bb1bb\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add babel/core
+
+PATH: 
+  C:\Program Files (x86)\Java\jdk1.8.0_151\\bin;C:\ProgramData\Oracle\Java\javapath;D:\app\bb1bb\virtual\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Users\bb1bb\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\bb1bb\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\Users\bb1bb\AppData\Local\Microsoft\WindowsApps;C:\Users\bb1bb\AppData\Local\GitHubDesktop\bin;C:\Users\bb1bb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bb1bb\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Webdev\guessmind-nomadcoder\package.json: Unexpected string in JSON at position 329
+      at JSON.parse (<anonymous>)
+      at C:\Users\bb1bb\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\bb1bb\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\bb1bb\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "guessmind-nomadcoder",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/hyunjaesung/guessmind-nomadcoder.git",
+    "author": "stevesung <steveysung91@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "nodemon": "^1.19.1",
+      "socket.io": "^2.2.0"
+    }
+    "scripts": {
+      "dev:server" : "nodemon --exec babel-node src/server"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
